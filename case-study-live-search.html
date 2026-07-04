@@ -1,65 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Live Search Bar Case Study | Enny Mtshweni</title>
-    <link rel="stylesheet" href="style (3).css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <nav class="nav" id="nav">
-      <a class="nav__logo" href="index (4).html">Enny<span class="dot">.</span></a>
-      <div class="nav__actions">
-        <a class="btn btn--outline btn--sm" href="index (4).html">Back home</a>
-      </div>
-    </nav>
+<main class="page-shell">
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Case Study</p>
+      <h1 class="section-title">Live Search Bar — Building a fast, responsive search experience.</h1>
+      <p class="section-copy">
+        A collaborative JavaScript project focused on creating a lightweight live search component that filters results instantly as users type, improving usability through real-time interaction.
+      </p>
+    </div>
+  </section>
 
-    <main class="page-shell">
-      <section class="page-hero">
-        <div class="container">
-          <p class="eyebrow">Case study</p>
-          <h1 class="section-title">Live search bar — a group project with a fast, calm feel.</h1>
-          <p class="section-copy">
-            This project was less about flashy effects and more about making search feel immediate, useful and trustworthy.
-          </p>
-        </div>
-      </section>
+  <section class="section">
+    <div class="container story-grid">
 
-      <section class="section">
-        <div class="container story-grid">
-          <article class="page-card">
-            <h2>The brief</h2>
-            <p>
-              Our group wanted to build a search experience that would help users find information quickly without creating confusion. The challenge was to make the interaction feel responsive while keeping the interface simple.
-            </p>
-          </article>
-          <article class="page-card">
-            <h2>What we built</h2>
-            <ul class="bullet-list">
-              <li>A live search bar that reacted as the user typed.</li>
-              <li>Clear visual feedback so the user always knew what matched.</li>
-              <li>A lightweight structure that was easy to explain and easy to improve.</li>
-            </ul>
-          </article>
-          <article class="page-card">
-            <h2>Why it mattered</h2>
-            <p>
-              The real win was not just the search itself. It was the feeling of speed, focus and confidence that came from the interaction. That is what makes a small feature feel memorable.
-            </p>
-          </article>
-          <article class="page-card">
-            <h2>What I learned</h2>
-            <ul class="bullet-list">
-              <li>Good interactions should feel calm and predictable.</li>
-              <li>Small UI decisions can make a feature feel more professional.</li>
-              <li>Collaboration helps you improve the experience faster.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-    </main>
-  </body>
-</html>
+      <article class="page-card">
+        <h2>Project Overview</h2>
+        <p>
+          The Live Search Bar is a vanilla JavaScript component that provides
+          instant search results without requiring users to submit a form. The
+          goal was to create a fast, intuitive experience while strengthening our
+          understanding of JavaScript fundamentals, DOM manipulation and event-driven
+          programming.
+        </p>
+      </article>
+
+      <article class="page-card">
+        <h2>Problem</h2>
+        <p>
+          Traditional search bars often require users to press Enter before seeing
+          results, creating unnecessary steps. Our challenge was to make searching
+          feel immediate while keeping the interface clean and easy to use.
+        </p>
+      </article>
+
+      <article class="page-card">
+        <h2>Solution</h2>
+        <ul class="bullet-list">
+          <li>Built a real-time search bar using Vanilla JavaScript.</li>
+          <li>Filtered a predefined dataset instantly as users typed.</li>
+          <li>Displayed matching results dynamically without refreshing the page.</li>
+          <li>Handled empty searches and no-result scenarios gracefully.</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>Technologies</h2>
+        <ul class="bullet-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Vanilla JavaScript (ES6)</li>
+          <li>DOM Manipulation</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>How It Works</h2>
+        <ul class="bullet-list">
+          <li>The <strong>keyup</strong> event detects every keystroke.</li>
+          <li>User input is converted to lowercase.</li>
+          <li>The dataset is filtered using <strong>filter()</strong> and <strong>includes()</strong>.</li>
+          <li>Previous results are cleared before rendering new ones.</li>
+          <li>Matching results are displayed instantly.</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>Key Features</h2>
+        <ul class="bullet-list">
+          <li>Real-time search filtering.</li>
+          <li>Case-insensitive matching.</li>
+          <li>Dynamic DOM updates.</li>
+          <li>Responsive design.</li>
+          <li>Lightweight and framework-free.</li>
+          <li>"No results found" feedback.</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>Challenges</h2>
+        <p>
+          One of the biggest challenges was keeping the displayed results in sync
+          with the user's input. Clearing previously rendered elements before
+          displaying new matches ensured the interface always reflected the latest
+          search query. We also implemented case-insensitive searching to improve
+          usability.
+        </p>
+      </article>
+
+      <article class="page-card">
+        <h2>What I Learned</h2>
+        <ul class="bullet-list">
+          <li>JavaScript event handling.</li>
+          <li>DOM manipulation and dynamic rendering.</li>
+          <li>Array filtering with <strong>filter()</strong>.</li>
+          <li>Improving UX through real-time feedback.</li>
+          <li>Building reusable front-end components.</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>Project Outcome</h2>
+        <p>
+          This project demonstrates my ability to build responsive front-end
+          features using core JavaScript. It strengthened my understanding of
+          event-driven programming, DOM manipulation and user-centred interface
+          design while contributing effectively within a collaborative team.
+        </p>
+      </article>
+
+    </div>
+  </section>
+</main>
