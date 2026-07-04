@@ -1,0 +1,30 @@
+
+## Netflix landing page clone
+## Brief / Problem
+
+The goal was to recreate the Netflix landing page to improve my understanding of real-world UI structure, layout design, and responsive web development.
+
+---
+
+## Decisions & Why
+
+I focused on a clean section-based layout using HTML and CSS because Netflix uses a structured, component-based design. I used Flexbox to ensure elements align properly across different screen sizes and kept styling minimal to match the original UI.
+
+---
+
+## Tools & Technologies + Learnings
+
+- HTML  
+- CSS  
+- Flexbox  
+- Responsive Design  
+
+I learned how to structure complex layouts, manage spacing, and build responsive interfaces that adapt across devices.
+
+---
+
+## What I Would Do Differently + Proud Of
+
+If I improve the project further, I would add JavaScript animations and enhance interactivity to make the experience feel more dynamic.
+
+I am proud that I was able to closely replicate a real-world platform design and make it responsive across different screen sizes.

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enny Mtshweni | Portfolio</title>
+    <link rel="stylesheet" href="style (3).css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <a class="nav__logo" href="#home">Enny<span class="dot">.</span></a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#case-studies">Case Studies</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a class="btn btn--outline btn--sm" href="cv.html">Request CV</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mm-link">About</a></li>
+        <li><a href="#skills" class="mm-link">Skills</a></li>
+        <li><a href="#projects" class="mm-link">Projects</a></li>
+        <li><a href="#case-studies" class="mm-link">Case Studies</a></li>
+        <li><a href="cv.html" class="mm-link">CV</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero__content">
+          <p class="eyebrow reveal">Product-minded developer</p>
+          <h1 class="hero__title reveal delay-1">Enny Mtshweni</h1>
+          <p class="hero__role reveal delay-2">I turn ideas into useful digital experiences.</p>
+          <p class="hero__bio reveal delay-3">
+            I build thoughtful websites and data-driven solutions that feel calm, clear, and useful for real people.
+          </p>
+          <div class="hero__actions reveal delay-4">
+            <a class="btn btn--primary" href="#projects">See my work</a>
+            <a class="btn btn--ghost" href="cv.html">Open CV page</a>
+          </div>
+          <div class="hero__socials reveal delay-5">
+            <a href="https://github.com/EnnyMtshweni" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/enny-mtshweni" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:ennymtshweni03@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="hero__visual reveal delay-3">
+          <img src="./assets/Portfolio picture.jpg" alt="Enny Mtshweni" />
+          <div class="hero__card">
+            <span class="pill">Available now</span>
+            <strong>6+</strong>
+            <span>Projects shipped</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container about__grid">
+          <div class="about__image reveal">
+            <img src="./assets/Full stack dev.jpg" alt="Enny coding" />
+          </div>
+          <div class="about__text">
+            <p class="eyebrow reveal">01 About me</p>
+            <h2 class="section-title reveal delay-1">Designing digital work that feels simple and sharp.</h2>
+            <p class="section-copy reveal delay-2">
+              I am a developer who enjoys combining clean design with practical logic. My background in data and web development helps me create interfaces that not only look good, but also solve real problems clearly.
+            </p>
+            <div class="about__details reveal delay-3">
+              <div>
+                <span class="detail-label">Base</span>
+                <span class="detail-value">Johannesburg, South Africa</span>
+              </div>
+              <div>
+                <span class="detail-label">Focus</span>
+                <span class="detail-value">Web, data and UI systems</span>
+              </div>
+            </div>
+            <div class="about__actions reveal delay-4">
+              <a class="btn btn--primary" href="cv.html">Request my CV</a>
+              <a class="btn btn--ghost" href="https://github.com/EnnyMtshweni" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="container">
+          <p class="eyebrow reveal">02 Skills</p>
+          <h2 class="section-title reveal delay-1">A calm toolkit for modern web work.</h2>
+          <div class="skills__grid">
+            <article class="skill-card reveal">
+              <h3>Frontend</h3>
+              <div class="tag-list">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </article>
+            <article class="skill-card reveal delay-1">
+              <h3>Backend</h3>
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Django</span>
+              </div>
+            </article>
+            <article class="skill-card reveal delay-2">
+              <h3>Data</h3>
+              <div class="tag-list">
+                <span class="tag">SQL</span>
+                <span class="tag">Power BI</span>
+                <span class="tag">Tableau</span>
+              </div>
+            </article>
+            <article class="skill-card reveal delay-3">
+              <h3>Design & Workflow</h3>
+              <div class="tag-list">
+                <span class="tag">Figma</span>
+                <span class="tag">UI systems</span>
+                <span class="tag">Git</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <p class="eyebrow reveal">03 Selected work</p>
+          <h2 class="section-title reveal delay-1">Projects that balance craft and clarity.</h2>
+          <div class="projects__filter reveal delay-2">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="data">Data</button>
+            <button class="filter-btn" data-filter="group">Group</button>
+          </div>
+
+          <div class="projects__grid">
+            <article class="project-card reveal" data-category="web">
+              <img src="./assets/Screenshot (51).png" alt="Tesla landing page" />
+              <div class="project-card__body">
+                <div class="project-card__meta">
+                  <span class="pill">UI practice</span>
+                  <span class="project-year">2026</span>
+                </div>
+                <h3>Tesla landing page</h3>
+                <p>A polished front-end replica that sharpened my layout and spacing instincts.</p>
+                <div class="tag-list">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal delay-1" data-category="data">
+              <img src="./assets/layoffs sql project picture.png" alt="Layoffs analysis project" />
+              <div class="project-card__body">
+                <div class="project-card__meta">
+                  <span class="pill">Data story</span>
+                  <span class="project-year">2025</span>
+                </div>
+                <h3>Global layoffs analysis</h3>
+                <p>I cleaned a messy dataset and turned it into insight-rich dashboards with SQL and BI tools.</p>
+                <div class="tag-list">
+                  <span class="tag">SQL</span>
+                  <span class="tag">Tableau</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal delay-2" data-category="web">
+              <img src="./assets/netflix clone img.png" alt="Netflix clone" />
+              <div class="project-card__body">
+                <div class="project-card__meta">
+                  <span class="pill">Responsive UI</span>
+                  <span class="project-year">2026</span>
+                </div>
+                <h3>Netflix clone</h3>
+                <p>A responsive landing page that helped me learn how strong structure makes interfaces feel effortless.</p>
+                <div class="tag-list">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="web">
+              <img src="./assets/Screenshot (52).png" alt="UI screenshort" />
+              <div class="project-card__body">
+                <div class="project-card__meta">
+                  <span class="pill">Interface design</span>
+                  <span class="project-year">2026</span>
+                </div>
+                <h3>UI screenshort</h3>
+                <p>I shaped a clean product-style layout focused on hierarchy, spacing and visual calm.</p>
+                <div class="tag-list">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal delay-1" data-category="web">
+              <img src="./assets/contact book 1 - Copy.webp" alt="Contact book app" />
+              <div class="project-card__body">
+                <div class="project-card__meta">
+                  <span class="pill">Client-side app</span>
+                  <span class="project-year">2025</span>
+                </div>
+                <h3>Contact book app</h3>
+                <p>A lightweight app for managing contacts with persistence and a straightforward user experience.</p>
+                <div class="tag-list">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">HTML</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal delay-2" data-category="group">
+              <img src="./assets/live-search-preview.svg" alt="Live search bar preview" />
+              <div class="project-card__body">
+                <div class="project-card__meta">
+                  <span class="pill">Group project</span>
+                  <span class="project-year">2026</span>
+                </div>
+                <h3>Live search bar</h3>
+                <p>A collaborative experience where we made search feel instant, responsive and easy to trust.</p>
+                <div class="tag-list">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">UX</span>
+                </div>
+                <a class="text-link" href="case-study-live-search.html">Read the case study</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section case-studies" id="case-studies">
+        <div class="container">
+          <p class="eyebrow reveal">04 Case studies</p>
+          <h2 class="section-title reveal delay-1">Stories behind the work, told in a more human way.</h2>
+          <div class="case-studies__grid">
+            <article class="case-study-card reveal">
+              <span class="case-number">01</span>
+              <h3>Layoffs analysis</h3>
+              <p>Instead of just listing numbers, I shaped the data into a clearer narrative about what changed and why it mattered.</p>
+              <ul>
+                <li>Problem: too much raw data</li>
+                <li>Choice: SQL first, visuals second</li>
+                <li>Result: easier insight and better stories</li>
+              </ul>
+            </article>
+            <article class="case-study-card reveal delay-1">
+              <span class="case-number">02</span>
+              <h3>Netflix clone</h3>
+              <p>I studied a real product pattern and translated it into a simple front-end experience with strong visual rhythm.</p>
+              <ul>
+                <li>Problem: learn layout discipline</li>
+                <li>Choice: component-like sections</li>
+                <li>Result: a clean responsive build</li>
+              </ul>
+            </article>
+            <article class="case-study-card reveal delay-2">
+              <span class="case-number">03</span>
+              <h3>Live search bar group project</h3>
+              <p>Our group focused on making filtering feel fast and trustworthy, with a clear interaction from the first keystroke onward.</p>
+              <a class="text-link" href="case-study-live-search.html">Open full case study</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact__grid">
+          <div>
+            <p class="eyebrow reveal">05 Contact</p>
+            <h2 class="section-title reveal delay-1">Let’s build something useful together.</h2>
+            <p class="section-copy reveal delay-2">
+              I am always open to new ideas, collaborations and thoughtful product work.
+            </p>
+          </div>
+          <form class="contact-card reveal delay-3" action="mailto:ennymtshweni03@gmail.com" method="post" enctype="text/plain">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© 2026 Enny Mtshweni</p>
+        <div class="footer__links">
+          <a href="https://github.com/EnnyMtshweni" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/enny-mtshweni" target="_blank">LinkedIn</a>
+          <a href="cv.html">CV form</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>

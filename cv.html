@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request my CV | Enny Mtshweni</title>
+    <link rel="stylesheet" href="style (3).css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <a class="nav__logo" href="index (4).html">Enny<span class="dot">.</span></a>
+      <div class="nav__actions">
+        <a class="btn btn--outline btn--sm" href="index (4).html">Back home</a>
+      </div>
+    </nav>
+
+    <main class="page-shell">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">CV request</p>
+          <h1 class="section-title">A CV page instead of a download.</h1>
+          <p class="section-copy">
+            Use this form if you want to request a copy of my CV for a role, project, or collaboration.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container page-grid">
+          <div class="page-card">
+            <h2>What to expect</h2>
+            <ul class="bullet-list">
+              <li>I will share a tailored CV summary for the opportunity you mention.</li>
+              <li>I can highlight web development, data work and design thinking.</li>
+              <li>No download button is needed here. This keeps the experience simple and personal.</li>
+            </ul>
+          </div>
+
+          <form class="page-card form-card" action="mailto:ennymtshweni03@gmail.com" method="post" enctype="text/plain">
+            <div class="field">
+              <label for="cv-name">Your name</label>
+              <input id="cv-name" name="name" type="text" required />
+            </div>
+            <div class="field">
+              <label for="cv-email">Email address</label>
+              <input id="cv-email" name="email" type="email" required />
+            </div>
+            <div class="field">
+              <label for="cv-role">Role or company</label>
+              <input id="cv-role" name="role" type="text" placeholder="Example: Junior Frontend Developer" />
+            </div>
+            <div class="field">
+              <label for="cv-message">Message</label>
+              <textarea id="cv-message" name="message" rows="5" placeholder="Tell me what you are looking for."></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">Request CV</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
