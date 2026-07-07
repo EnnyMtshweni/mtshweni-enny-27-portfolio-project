@@ -249,6 +249,38 @@ button { cursor: pointer; border: none; background: none; }
 .project-card p { color: var(--muted); font-size: 0.95rem; margin-bottom: 0.8rem; }
 .text-link { display: inline-flex; margin-top: 0.5rem; color: var(--accent-strong); font-weight: 600; }
 
+.project-card__links { display: flex; gap: 0.6rem; margin-top: 0.9rem; }
+.project-card__links .icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: border-color var(--transition), color var(--transition), transform var(--transition);
+}
+.project-card__links .icon-link i { font-size: 0.85rem; }
+.project-card__links .icon-link:hover {
+  border-color: var(--accent-strong);
+  color: var(--accent-strong);
+  transform: translateY(-2px);
+}
+.project-card__links { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 0.9rem; }
+.project-card__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: color var(--transition);
+}
+.project-card__links a:hover { color: var(--accent-strong); }
+.project-card__links i { font-size: 0.95rem; }
+
 .case-studies__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1.6rem; }
 .case-study-card { padding: 1.35rem; }
 .case-number { display: inline-block; font-size: 2rem; color: var(--accent-strong); font-family: var(--font-display); margin-bottom: 0.4rem; }
