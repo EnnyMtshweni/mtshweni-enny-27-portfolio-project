@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Layoffs Analysis | Case Study</title>
+    <link rel="stylesheet" href="./style (3).css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <a class="nav__logo" href="./index (4).html">Enny<span class="dot">.</span></a>
+      <div class="nav__actions">
+        <a class="btn btn--outline btn--sm" href="./index (4).html">Back home</a>
+      </div>
+    </nav>
+
+<main class="page-shell">
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Case Study</p>
+      <h1 class="section-title">Global Layoffs Analysis — Turning raw data into a clear story.</h1>
+      <p class="section-copy">
+        A SQL-driven analysis of global layoffs between 2020 and 2023, cleaned and explored in MySQL, then shaped into Power BI and Tableau dashboards that reveal what changed across industries and why it mattered.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container story-grid">
+
+      <article class="page-card">
+        <h2>Project Overview</h2>
+        <p>
+          This project set out to make sense of a large, messy public dataset
+          documenting layoffs across companies and industries worldwide from
+          2020 to 2023. The goal was to clean the data properly in SQL first,
+          then build visual dashboards that turned scattered numbers into a
+          readable narrative about the state of the job market.
+        </p>
+      </article>
+
+      <article class="page-card">
+        <h2>Problem</h2>
+        <p>
+          The raw dataset was inconsistent: duplicate entries, blank fields,
+          inconsistent date formats, and company names logged in different
+          ways. On its own, the data was too noisy to analyse or trust, let
+          alone present to anyone else.
+        </p>
+      </article>
+
+      <article class="page-card">
+        <h2>Solution</h2>
+        <ul class="bullet-list">
+          <li>Cleaned and standardised the dataset entirely in SQL before any visual work began.</li>
+          <li>Removed duplicates and handled null values without losing meaningful records.</li>
+          <li>Standardised company, industry and country naming for consistent grouping.</li>
+          <li>Wrote exploratory queries to surface trends by industry, country and time period.</li>
+          <li>Connected the cleaned data to Power BI and Tableau to build interactive dashboards.</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>Technologies</h2>
+        <ul class="bullet-list">
+          <li>SQL (MySQL, PostgreSQL)</li>
+          <li>Power BI</li>
+          <li>Tableau</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>How It Works</h2>
+        <ul class="bullet-list">
+          <li>Raw CSV data is imported into a SQL database for cleaning.</li>
+          <li>Duplicate rows are identified and removed using window functions.</li>
+          <li>Missing values are addressed with joins against reference data where possible.</li>
+          <li>Cleaned tables are queried to explore trends by industry, stage and region.</li>
+          <li>Results are connected to Power BI and Tableau for dashboard visualisation.</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>Key Features</h2>
+        <ul class="bullet-list">
+          <li>Fully cleaned, query-ready dataset.</li>
+          <li>Industry and region-level breakdowns of layoffs over time.</li>
+          <li>Interactive Power BI and Tableau dashboards.</li>
+          <li>Clear before-and-after view of raw versus cleaned data.</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>Challenges</h2>
+        <p>
+          The hardest part was deciding what "clean" actually meant for this
+          dataset — some blank fields were genuinely missing information,
+          while others represented a real zero. Working through SQL first,
+          before touching any visuals, made it possible to make those calls
+          deliberately rather than guessing at the dashboard stage.
+        </p>
+      </article>
+
+      <article class="page-card">
+        <h2>What I Learned</h2>
+        <ul class="bullet-list">
+          <li>Data cleaning techniques in SQL, including deduplication and null handling.</li>
+          <li>Writing exploratory queries to find patterns before visualising anything.</li>
+          <li>Building dashboards that communicate a clear story, not just numbers.</li>
+          <li>The value of separating data preparation from data presentation.</li>
+        </ul>
+      </article>
+
+      <article class="page-card">
+        <h2>Project Outcome</h2>
+        <p>
+          The result is a dashboard-ready dataset and a set of visuals that
+          make it easy to see how layoffs shifted across industries and time.
+          The project sharpened my SQL fundamentals and showed me how much a
+          clear data story depends on the quality of the cleaning that happens
+          before a single chart is built.
+        </p>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+  </body>
+</html>
